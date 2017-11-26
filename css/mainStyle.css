@@ -7,6 +7,10 @@ body {
     font-family: 'Merriweather','Helvetica Neue',Arial,sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 #mainNav {
     border-bottom: 1px solid rgba(33,37,41,.1);
     border-color: #fff;
@@ -79,6 +83,26 @@ header.masthead p {
     font-weight: 700;
     text-transform: uppercase;
     color: #212529;
+}
+
+section {
+    padding: 8rem 0;
+}
+
+.bg-primary {
+    background-color: #f05f40 !important;
+}
+
+.section-heading {
+    margin-top: 0;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
 }
 
 @media (min-width: 1200px) {
