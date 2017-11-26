@@ -7,6 +7,20 @@ body {
     font-family: 'Merriweather','Helvetica Neue',Arial,sans-serif;
 }
 
+#mainNav {
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    border-color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    transition: all .2s;
+}
+
+#mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f05f40;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
@@ -60,6 +74,13 @@ header.masthead p {
     background-color: #ee4b28 !important;
 }
 
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529;
+}
+
 @media (min-width: 1200px) {
     header.masthead h1 {
         font-size: 4rem;
@@ -67,6 +88,23 @@ header.masthead p {
 }
 
 @media (min-width: 992px) {
+    #mainNav {
+        border-color: transparent;
+        background-color: transparent;
+    }
+
+    #mainNav .navbar-brand {
+        color: rgba(255,255,255,.7);
+    }
+
+    #mainNav .navbar-nav>li.nav-item>a.nav-link {
+        padding: .5rem 1rem;
+    }
+
+    #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+        color: rgba(255,255,255,.7);
+    }
+
     header.masthead {
         height: 100vh;
         min-height: 650px;
