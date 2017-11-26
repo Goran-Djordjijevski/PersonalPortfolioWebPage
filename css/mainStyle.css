@@ -105,6 +105,18 @@ hr.light {
     color: rgba(255,255,255,.7);
 }
 
+.section-heading {
+    margin-top: 0;
+}
+
+.service-box {
+    max-width: 400px;
+}
+
+.text-primary {
+    color: #f05f40 !important;
+}
+
 @media (min-width: 1200px) {
     header.masthead h1 {
         font-size: 4rem;
